@@ -1,0 +1,8 @@
+parameters:
+  altair_graphql.endpoint: '/graphql'
+
+services:
+  XKojiMedia\Bundle\AltairGraphqlBundle\Controller\AltairGraphqlController:
+    public: true
+    bind:
+      $graphqlEndpoint: '%altair_graphql.endpoint%'

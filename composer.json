@@ -1,0 +1,22 @@
+{
+    "name": "xkojimedia/altair-graphql-symfony-bundle",
+    "description": "Symfony bundle for loading the Altair GraphQL Client",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel Imolorhe",
+            "email": "hello@sirmuel.design"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "^4.3",
+        "symfony/twig-bundle": "^4.3",
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "XKojiMedia\\Bundle\\AltairGraphqlBundle\\": "src/"
+        }
+    }
+}

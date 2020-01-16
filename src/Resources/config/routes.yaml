@@ -1,0 +1,3 @@
+altair_graphql:
+  path: /
+  controller: 'XKojiMedia\Bundle\AltairGraphqlBundle\Controller\AltairGraphqlController::index'
